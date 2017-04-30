@@ -1,0 +1,3 @@
+==TOASTMOD==
+
+For now do not upgrade the packages that aptitude wants you to, (the 19 of them that are upgradable) just because I don't wanna accidentally update the kernel, I want to leave the kernel at 2.6.22.19.
