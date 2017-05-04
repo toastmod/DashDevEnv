@@ -10,7 +10,7 @@ Run the mount_qcow.sh to mount the current qemu image, it will be mounted in /mn
 Copy all contents of MALTADRIVE (except for dev) to a folder where you want to store the chroot.
 Inside this folder make a new file called startchroot.sh, and inside paste this:
 
-'''
+```bash
 echo "Mounting system stuff..."
 mount -o loop /dev dev/
 mount -o loop /proc proc/
@@ -19,7 +19,7 @@ mount -o loop /tmp tmp/
 mount -t devpts dev/pts
 echo "Starting chroot!"
 chroot .
-'''
+```
 
 Now put the folder on an ext3 formatted usb drive, and connect it to the Dash.
 SSH into the Dash as root, cd into /mnt/usb/NAMEOFYOURCHROOTFOLDERHERE and run the startchroot.sh
