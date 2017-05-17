@@ -2,7 +2,7 @@
 Dash OS Development Environment for Ubuntu users
 
 # How do I use this?
-Download these files as a zip, unpack wherever you want, make sure qemu is install, and finally run the startvm-nographic.sh script.
+Download these files as a zip, unpack wherever you want, make sure qemu is installed, and finally run the startvm-nographic.sh script.
 If you want to back up the current vm image, just run the savebackup.sh script.
 
 # Making a new chroot
